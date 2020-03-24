@@ -1,5 +1,5 @@
 OBA_URL="http://nexus.onebusaway.org/service/local/artifact/maven/content?r=public&g=org.onebusaway&a=onebusaway-gtfs-transformer-cli&v=1.3.87"
-GTFS_URL="https://www.openvvs.de/dataset/e66f03e4-79f2-41d0-90f1-166ca609e491/resource/bfbb59c7-767c-4bca-bbb2-d8d32a3e0378/download/vvs_gtfs.zip"
+GTFS_URL="http://www.rtd-denver.com/GoogleFeeder/google_transit.zip"
 
 CURL=curl -\#
 
