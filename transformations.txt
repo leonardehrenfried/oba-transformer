@@ -1,1 +1,1 @@
-{"op":"update", "match":{"file":"feed_info.txt", "feed_publisher_name":"RTD"}, "update":{"feed_id":"rtd"}}
+{"op":"retain", "match":{"file":"stops.txt", "stop_id":"DE:08*"}}
