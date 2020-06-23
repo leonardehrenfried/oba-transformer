@@ -1,1 +1,1 @@
-{"op":"add","obj":{"file":"feed_info.txt", "feed_publisher_name":"MFDZ", "feed_publisher_url":"https://mfdz.de","feed_lang":"DE", "feed_id":"hbg"}}
+{"op":"retain", "match":{"file":"routes.txt", "route_short_name":"S1"}}

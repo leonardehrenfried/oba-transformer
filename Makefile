@@ -1,5 +1,5 @@
 OBA_URL="http://nexus.onebusaway.org/service/local/artifact/maven/content?r=public&g=org.onebusaway&a=onebusaway-gtfs-transformer-cli&v=1.3.87"
-GTFS_URL="https://www.nvbw.de/fileadmin/nvbw/open-data/Fahrplandaten_mit_Liniennetz/bwspnv.zip"
+GTFS_URL="https://gtfs.mfdz.de/hbg.merged.gtfs.zip"
 
 CURL=curl -\#
 
