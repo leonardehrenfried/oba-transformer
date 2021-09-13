@@ -1,0 +1,2 @@
+{"op":"remove", "match":{"file":"routes.txt", "route_short_name":"T14-A"}}
+{"op":"remove", "match":{"file":"routes.txt", "route_short_name":"T14-B"}}
