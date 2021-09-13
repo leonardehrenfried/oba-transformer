@@ -1,4 +1,4 @@
-OBA_URL="https://leonard.io/downloads/onebusaway-gtfs-transformer-cli-1.3.100.jar"
+OBA_URL="http://nexus.onebusaway.org/service/local/artifact/maven/content?r=public&g=org.onebusaway&a=onebusaway-gtfs-transformer-cli&v=1.3.87"
 GTFS_URL="https://leonard.io/ibi/marta.unknown-accessibility.gtfs.zip"
 
 CURL=curl -\#
