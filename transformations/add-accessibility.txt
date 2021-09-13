@@ -1,0 +1,13 @@
+# set it to "not accessible" by default everywhere
+{"op":"update", "match":{"file":"stops.txt", "stop_id": "m/.*/"}, "update":{"wheelchair_boarding":"2"}}
+# georgia state station
+{"op":"update", "match":{"file":"stops.txt", "stop_id": "198"}, "update":{"wheelchair_boarding":"1"}}
+{"op":"update", "match":{"file":"stops.txt", "stop_id": "201"}, "update":{"wheelchair_boarding":"1"}}
+{"op":"update", "match":{"file":"stops.txt", "stop_id": "908618"}, "update":{"wheelchair_boarding":"1"}}
+{"op":"update", "match":{"file":"stops.txt", "stop_id": "908696"}, "update":{"wheelchair_boarding":"1"}}
+# ashby station
+{"op":"update", "match":{"file":"stops.txt", "stop_id": "485"}, "update":{"wheelchair_boarding":"1"}}
+{"op":"update", "match":{"file":"stops.txt", "stop_id": "486"}, "update":{"wheelchair_boarding":"1"}}
+# blue line is accessible
+{"op":"update", "match":{"file":"trips.txt", "route_id": "m/.*/"}, "update":{"wheelchair_accessible":"2"}}
+{"op":"update", "match":{"file":"trips.txt", "route_id": "15787"}, "update":{"wheelchair_accessible":"1"}}
