@@ -1,10 +1,13 @@
-OBA_URL="http://nexus.onebusaway.org/service/local/artifact/maven/content?r=public&g=org.onebusaway&a=onebusaway-gtfs-transformer-cli&v=1.3.87"
+OBA_URL="https://leonard.io/downloads/onebusaway-gtfs-transformer-cli-1.3.100.jar"
 GTFS_URL="https://leonard.io/ibi/marta.unknown-accessibility.gtfs.zip"
 
 CURL=curl -\#
 
 transform: oba-transformer.jar gtfs.zip
 	java -Xmx16g -jar oba-transformer.jar --transform=transformations.txt gtfs.zip gtfs-transformed.zip
+	mkdir -p output
+	rm -f output/*
+	unzip gtfs-transformed.zip -d output
 
 oba-transformer.jar:
 	${CURL} ${OBA_URL} -o oba-transformer.jar
