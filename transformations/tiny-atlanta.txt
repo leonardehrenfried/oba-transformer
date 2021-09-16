@@ -28,6 +28,7 @@
 {"op":"retain", "match":{"file":"routes.txt", "route_id": "15789"}}
 {"op":"retain", "match":{"file":"trips.txt", "trip_id": "8056305"}}
 
-{"op":"trim_trip", "match":{"file":"trips.txt", "trip_id":"8056305"}, "to_stop_id":"125S", "from_stop_id":"138S"}
+# make bus 21 trip really short
+{"op":"trim_trip", "match":{"file":"trips.txt", "trip_id": "8056305"}, "from_stop_id":"102152", "to_stop_id":"103170"}
 
 
