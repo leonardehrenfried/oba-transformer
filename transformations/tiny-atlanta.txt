@@ -1,0 +1,33 @@
+# set it to "not accessible" by default everywhere
+{"op":"update", "match":{"file":"stops.txt", "stop_id": "m/.*/"}, "update":{"wheelchair_boarding":"2"}}
+
+# georgia state station is accessible
+{"op":"update", "match":{"file":"stops.txt", "stop_id": "198"}, "update":{"wheelchair_boarding":"1"}}
+{"op":"update", "match":{"file":"stops.txt", "stop_id": "201"}, "update":{"wheelchair_boarding":"1"}}
+{"op":"update", "match":{"file":"stops.txt", "stop_id": "908618"}, "update":{"wheelchair_boarding":"1"}}
+{"op":"update", "match":{"file":"stops.txt", "stop_id": "908696"}, "update":{"wheelchair_boarding":"1"}}
+
+# ashby station is accessible 
+{"op":"update", "match":{"file":"stops.txt", "stop_id": "485"}, "update":{"wheelchair_boarding":"1"}}
+{"op":"update", "match":{"file":"stops.txt", "stop_id": "486"}, "update":{"wheelchair_boarding":"1"}}
+
+# CNN center we don't know
+{"op":"update", "match":{"file":"stops.txt", "stop_id": "796"}, "update":{"wheelchair_boarding":"0"}}
+{"op":"update", "match":{"file":"stops.txt", "stop_id": "807"}, "update":{"wheelchair_boarding":"0"}}
+
+# by default no lines are accessible
+{"op":"update", "match":{"file":"trips.txt", "route_id": "m/.*/"}, "update":{"wheelchair_accessible":"2"}}
+
+# blue line is accessible
+{"op":"update", "match":{"file":"trips.txt", "route_id": "15787"}, "update":{"wheelchair_accessible":"1"}}
+# bus 21 is also accessible
+{"op":"update", "match":{"file":"trips.txt", "route_id": "15676"}, "update":{"wheelchair_accessible":"1"}}
+
+# retain only metros and bus 21
+{"op":"retain", "match":{"file":"routes.txt", "route_id": "15787"}}
+{"op":"retain", "match":{"file":"routes.txt", "route_id": "15789"}}
+
+{"op":"retain", "match":{"file":"routes.txt", "route_id": "15676"}}
+
+
+{"op":"trim_trip", "match":{"file":"trips.txt", "route_id":"15676"}, "to_stop_id":"103170", "from_stop_id":"102152"}
