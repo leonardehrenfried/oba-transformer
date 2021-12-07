@@ -1,5 +1,5 @@
 OBA_URL="https://repo.camsys-apps.com/releases/org/onebusaway/onebusaway-gtfs-transformer-cli/1.3.102/onebusaway-gtfs-transformer-cli-1.3.102.jar"
-GTFS_URL="https://github.com/MobilityData/gtfs-flex/raw/master/spec/FlexExample--on-demand-service.zip"
+GTFS_URL="https://www.arcgis.com/sharing/rest/content/items/1ce8e370a12c41b5854d8baa21f8451c/data"
 
 CURL=curl -\# -L
 
