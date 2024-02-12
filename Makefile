@@ -1,4 +1,4 @@
-OBA_URL="https://repo.camsys-apps.com/releases/org/onebusaway/onebusaway-gtfs-transformer-cli/1.3.102/onebusaway-gtfs-transformer-cli-1.3.102.jar"
+OBA_URL="https://repo.camsys-apps.com/releases/org/onebusaway/onebusaway-gtfs-transformer-cli/1.4.15/onebusaway-gtfs-transformer-cli-1.4.15.jar"
 GTFS_URL="http://vbb.de/vbbgtfs"
 
 CURL=curl -\# -L
